@@ -24,7 +24,7 @@ const Home = () => {
           </div>
         </div>
        </section>
-       <section className='section2'>
+       <section className='section2' >
         <Carousel className='carousel'
          autoPlay
         useKeyboardArrows={true}
@@ -37,10 +37,10 @@ const Home = () => {
        
         
         >
-         <div className='carousel_card'>
+         <div className='carousel_card' >
          <ul>
           <li className='carousel_card_icon'><img src='https://img001.prntscr.com/file/img001/rT6oSzstQsiAE7gvnsX6OA.png'></img></li>
-          <li className='carousel_card_title'>Lahiyələndirmə</li>
+          <li className='carousel_card_title' >Lahiyələndirmə</li>
           <li className='carousel_card_p'>Yaradıcı layihələrin həyata keçirilməsi üçün sizə öz təcrübəmizi təklif edirik. Ehtiyaclarınız üçün fərdiləşdirilmiş layihə dizayn xidmətimizlə biznesinizi gələcəyə daşımağınıza kömək edirik.
 Layihənin dizaynı zamanı sizinlə yaxından əlaqə saxlamaqla istəklərinizi də tam başa düşürük. Dəyərli fikirlərinizi dinləməklə, arzularınızı gerçəkləşdirmək üçün əlimizdən gələni edirik. Əməkdaşlığımız müddətində layihənin hər mərhələsində sizinlə aktiv şəkildə əlaqə saxlayır və rəyinizi nəzərə alırıq.</li>
          </ul>
@@ -87,12 +87,12 @@ Layihənin dizaynı zamanı sizinlə yaxından əlaqə saxlamaqla istəkləriniz
          <div><img src='https://img001.prntscr.com/file/img001/lr_rVUwxTpmPxKpmyK-lHw.png'/></div>
         </Carousel>
        </section>
-       <section className='section4'>
+       <section className='section4' id='layihelendirme'>
        <div className='section3_div1'>
           <div className='title_line'></div>
           <p>layihə</p>
          </div>
-         <h1>Layihələndirmə</h1>
+         <h1 >Layihələndirmə</h1>
          <p className='section3_p'>Layihənin dizaynı zamanı sizinlə yaxından əlaqə saxlamaqla istəklərinizi də tam başa düşürük. Dəyərli fikirlərinizi dinləməklə, arzularınızı gerçəkləşdirmək üçün əlimizdən gələni edirik. Əməkdaşlığımız müddətində layihənin hər mərhələsində sizinlə aktiv şəkildə əlaqə saxlayır və rəyinizi nəzərə alırıq.</p>
          <div className='section4_gallery'>
         
@@ -106,7 +106,7 @@ Layihənin dizaynı zamanı sizinlə yaxından əlaqə saxlamaqla istəkləriniz
           </div>
          </div>
        </section>
-       <section className='section3' id=''>
+       <section className='section3' id='emekdaslar'>
          <div className='section3_div1'>
           <div className='title_line'></div>
           <p>TESTIMONALS</p>
@@ -166,7 +166,7 @@ readable content of a page when looking at its layout. The point of using...</p>
          </div>
         </Carousel>
        </section> 
-       <section className='section4'>
+       <section className='section4' id='xeberler'>
        <div className='section3_div1'>
           <div className='title_line'></div>
           <p>NEWS</p>
@@ -196,7 +196,7 @@ readable content of a page when looking at its layout. The point of using...</p>
           </div>
          </div>
        </section>
-       <section className='section3' id=''>
+       <section className='section3' id='komandamiz'>
          <div className='section3_div1'>
           <div className='title_line'></div>
           <p>Komandamız</p>

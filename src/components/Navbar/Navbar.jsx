@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-scroll";
 import "./Navbar.css"
-import MyImage from "./media/inteclog_.png"
+
 const Navbar = () => {
   return (
     <nav>
@@ -14,7 +14,7 @@ const Navbar = () => {
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
   <ul class="menu">
   <li>
-              <Link activeClass="active" smooth spy to="haqqimizda">
+              <Link activeClass="active" smooth spy to="komandamiz">
                 Haqqımızda
               </Link>
             </li>
@@ -24,7 +24,7 @@ const Navbar = () => {
               </Link>
               </li>
               <li>
-              <Link activeClass="active" smooth spy to="layihelerimiz">
+              <Link activeClass="active" smooth spy to="layihelendirme">
                 Layihələrimiz
               </Link>
             </li>

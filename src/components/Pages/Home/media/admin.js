@@ -117,6 +117,34 @@ const admin ={
       //card1
       section6_news_card1_img:'https://img001.prntscr.com/file/img001/3xilckzwSeyzbWz86iEssA.jpg',
       section6_news_card1_paragraph:'Azərbaycan Texniki Universitetinin (AzTU) "InTech" komandası festivalın Hackathon kateqotiyasında iştirak edərək 25 komanda arasında 3-cü yerə layiq görülüb.',
+      //card2
+      section6_news_card2_img:'https://img001.prntscr.com/file/img001/3xilckzwSeyzbWz86iEssA.jpg',
+      section6_news_card2_paragraph:'Azərbaycan Texniki Universitetinin (AzTU) "InTech" komandası festivalın Hackathon kateqotiyasında iştirak edərək 25 komanda arasında 3-cü yerə layiq görülüb.',
+      //card3
+      section6_news_card3_img:'https://img001.prntscr.com/file/img001/3xilckzwSeyzbWz86iEssA.jpg',
+      section6_news_card3_paragraph:'Azərbaycan Texniki Universitetinin (AzTU) "InTech" komandası festivalın Hackathon kateqotiyasında iştirak edərək 25 komanda arasında 3-cü yerə layiq görülüb.',
+      //card4
+      section6_news_card4_img:'',
+      section6_news_card4_paragraph:'',
+      //card5
+      section6_news_card5_img:'',
+      section6_news_card5_paragraph:'',
+      //card6
+      section6_news_card6_img:'',
+      section6_news_card6_paragraph:'',
+      //card7
+      section6_news_card7_img:'',
+      section6_news_card7_paragraph:'',
+      //card8
+      section6_news_card8_img:'',
+      section6_news_card8_paragraph:'',
+      //card9
+      section6_news_card9_img:'',
+      section6_news_card9_paragraph:'',
+      //card10
+      section6_news_card10_img:'',
+      section6_news_card10_paragraph:'',
+
 
 
 /*section7*/
@@ -125,11 +153,59 @@ const admin ={
     section7_paragraph:'There are many variations of passages of Lorem Ipsum available,but the majority have suffered alteration in some form,',
     //section7_command_members
     //card1
-    section7_member1_img:'https://s3-alpha-sig.figma.com/img/731b/356e/c84dd572476f56d06da14a8955a73807?Expires=1696204800&Signature=Do6lJM9IEfl5w7S2lMa0~Oa9xoYr19wqlAK8gA31UQfBDwXJKsqHXIFbI6~oJJpP9~hOI94fX3xHLVG0p0Tb5TZPrIDe7sOLSR9JrYUOhbxcXpCiJiI7ZijNx8ey5xd25j0H5lWiXJczW7Ajj0~~LokTPE0RHfI4i2KJjLN9CVXr6Oefx-IF05BwNw66UZzd730vu2OUo0QvZMpxQDNc2awU-oM2YLiPt-YIxWH0Tr~6N5UIoIDOPhJ7X3Mha7NGk0r7kaGyhdlqtqB3C01rsVhJu~iunFUGEjiTyg4WonKpt8nS4bWtIoDgEbbq6YKlPswRqNMjVUVV33dNLKrWvA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+    section7_member1_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
     section7_member1_name:'Murad',
     section7_member1_profession:'Designer',
     section7_member1_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
-    }
+    //card2
+    section7_member2_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
+    section7_member2_name:'Murad',
+    section7_member2_profession:'Designer',
+    section7_member2_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
+    //card3
+    section7_member3_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
+    section7_member3_name:'Murad',
+    section7_member3_profession:'Designer',
+    section7_member3_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
+    //card4
+    section7_member4_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
+    section7_member4_name:'Murad',
+    section7_member4_profession:'Designer',
+    section7_member4_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
+    //card5
+    section7_member5_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
+    section7_member5_name:'Murad',
+    section7_member5_profession:'Designer',
+    section7_member5_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
+    //card6
+    section7_member6_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
+    section7_member6_name:'Murad',
+    section7_member6_profession:'Designer',
+    section7_member6_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
+    //card7
+    section7_member7_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
+    section7_member7_name:'Murad',
+    section7_member7_profession:'Designer',
+    section7_member7_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
+    //card8
+    section7_member8_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
+    section7_member8_name:'Murad',
+    section7_member8_profession:'Designer',
+    section7_member8_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
+    //card9
+    section7_member9_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
+    section7_member9_name:'Murad',
+    section7_member9_profession:'Designer',
+    section7_member9_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
+    //card10
+    section7_member10_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
+    section7_member10_name:'Murad',
+    section7_member10_profession:'Designer',
+    section7_member10_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
+    
+
+}
+
 
 
 

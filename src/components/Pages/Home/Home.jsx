@@ -2,15 +2,22 @@ import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import {Carousel} from 'react-responsive-carousel';
 import { Link } from "react-scroll";
+import {Helmet} from "react-helmet";
 import './Home.css'
 import admin from './media/admin'
 const Home = () => {
   return (
+    
     <div className='body'>
+           <Helmet>
+                <meta charSet="utf-8" />
+                <title>{admin.helmet_title}</title>
+                <link rel="icon" type='image/png' href={admin.helmet_img} />
+            </Helmet>
+
        <section className='section1' >
        
-      
-         
+             
           <div className='section1_div'>
           <ul>
             <li><a href={admin.section1_face_link}><img src='https://img001.prntscr.com/file/img001/bu3LOMwUSEWVcCIOuIV6Cw.png'/></a></li>

@@ -10,7 +10,7 @@ const admin ={
     section1_paragraph:'Müasir dünyada texnologiya olmadan uğur qazanmaq çətindir. Biznesinizi inkişaf etdirmək üçün sizə lazım olan texnoloji imkanları təqdim edirik',
     section1_face_link:'https://m.facebook.com/profile.php?id=100092457157651&eav=AfZHuiwuOa2dyPUt5pCpKf9c1IFL67x-o3rtL8thPvqkfIN6iRJ16DRV80b32NRklpA&paipv=0',
     section1_insta_link:'https://www.instagram.com/intech.main/',
-    section1_linkedin_link:'',
+    section1_linkedin_link:'https://www.linkedin.com/company/100031767/admin/feed/posts/',
     section1_contact_button_link:'https://api.whatsapp.com/send?phone=%2B994998404434&data=ARDXrvi4ktHKtKWk4htVcJht9Oe0zsUKR8hI8KaFXUsJKHUXoMd8Fpmy9nsrS6GyqDfUQiwtWwIXPbI8lMhoVPKq1MbQaBLkSYEzOBeyzMXCNkirhFeenQKAsrOFwnI0mLVaEZYjqLA-i4NG--uddYPkrw&source=FB_Page&app=facebook&entry_point=page_cta',
     
     
@@ -49,7 +49,7 @@ const admin ={
       section4_gallery_img3:'https://s3-alpha-sig.figma.com/img/7332/c8f5/bf8c63e166d373606d019708c9fa6fb9?Expires=1696204800&Signature=cKt7msUZk4l~ZljDVNSJiUJ31jxZc6Z3IdOHervf9u7XgLk2Uy~DGgQoqTEFce~cnVx-6BRnOwM60bKkw9xaaYafl5AQKI3bMQJpJj1OuZSuosHaeXwD6TBQaPdbA1ny4NRxlhDCrtFGjIIEW5tYfnwBQFU7pNWQXFatyBA~2HupFpznNofL1olzlIWj6ncaAknsiI4PNZuDRfeWgPV1Iq-loD9ZaTv7DC3zszcwUuWWB3GdSWWi1RaDca6xEP0qBw0ZcJYHO3BQmawlgF7~Db1vYQHz2RMkT~hQoGiL1gLqOd-zAJIAEivUUvP0iWNotUZR2RtYrEHwver7y89QkA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
       section4_gallery_img4:'https://s3-alpha-sig.figma.com/img/1c85/69ae/8663d87019a474b6d0a0ad765f8d372b?Expires=1696204800&Signature=qPI0EPrNljMcDcDIhGtGpZ8RM7LLCmPt0kN3O7v87F~Lrt312AycaMpHOXHqBbMmgNUfTsXpI8x5pMZZJNO8f9YwZCVunfNqKZsCNtiRPOIric9b3Z17HyrPreiLyPVZqVXqPSvHSkF-evbPlszCXuR--S1QwtM~kOefIG2-IQUrC7833IsXAAoO6wIyPbwqOT-WdOyS7-ewe7~~iLN63nypV1PYPNPsgTSO67XuRPqm6EtLYKlxTi~ybJMYVp1m-4Iun1Gi-TfqTUtMF7Wf72pMioWBWSJM~SJUtvbEWYITrQ6eKt6qpP8qssZ95arKs64G50i36DseYT1yIyHBpg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
       section4_gallery_img5:'https://s3-alpha-sig.figma.com/img/71be/d9be/b838cf03c952033c6d5ae1a290256707?Expires=1696204800&Signature=Y4bvhWVqDAjcSMcAytSVlmmScabmNorTmImCCSagDLhiipLr~MRyfw00ANdsLpEFgiPEvpfRuv2j-43YIDmm8v3TQIZS24se56-RZq~2QCbebB3PJnZaQi5pb~9T4L7SPtRH5dISYfuNk8uJYKOhScF9KhmavK2Lz6nV3Hw-7jrYbjgm20vEOItWT~-CcdP8wG8-z0AWDG4sx8jp31INctsGlIlbZsiISmkBgmxccvWFGwQ~TkgS0MeabdrOg6UIELaESUbXuLvMuIf9afc7j88bajKRrvmZpLkyTE88MbIHwfIx1bi3V43r6LDeMllIBaCvsxWAT~mXmzGjNB-vGQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
-      section4_gallery_img6:'',
+      section4_gallery_img6:'https://s3-alpha-sig.figma.com/img/71be/d9be/b838cf03c952033c6d5ae1a290256707?Expires=1696204800&Signature=Y4bvhWVqDAjcSMcAytSVlmmScabmNorTmImCCSagDLhiipLr~MRyfw00ANdsLpEFgiPEvpfRuv2j-43YIDmm8v3TQIZS24se56-RZq~2QCbebB3PJnZaQi5pb~9T4L7SPtRH5dISYfuNk8uJYKOhScF9KhmavK2Lz6nV3Hw-7jrYbjgm20vEOItWT~-CcdP8wG8-z0AWDG4sx8jp31INctsGlIlbZsiISmkBgmxccvWFGwQ~TkgS0MeabdrOg6UIELaESUbXuLvMuIf9afc7j88bajKRrvmZpLkyTE88MbIHwfIx1bi3V43r6LDeMllIBaCvsxWAT~mXmzGjNB-vGQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
       section4_gallery_img7:'',
       section4_gallery_img8:'',
       section4_gallery_img9:'',

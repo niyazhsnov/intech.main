@@ -1,13 +1,16 @@
 import React from 'react'
 import { Link } from "react-scroll";
+import { HideBetween } from 'react-hide-on-scroll';
+import  {useState, useEffect} from "react";
 import "./Navbar.css"
 
 const Navbar = () => {
+
   return (
     <nav>
 <header class="header">
-  <a href="" class="logo"><img className='logoimg' src='https://img001.prntscr.com/file/img001/8BsRCpmTQme2e9lKUTmLfA.png'></img></a>
-
+<HideBetween div startDivID="first" endDivID="komandamiz"><a href="" class="logo"><img className='logoimg' src='https://img001.prntscr.com/file/img001/8BsRCpmTQme2e9lKUTmLfA.png'></img></a>
+</HideBetween>
 
   
   <input class="menu-btn" type="checkbox" id="menu-btn" />

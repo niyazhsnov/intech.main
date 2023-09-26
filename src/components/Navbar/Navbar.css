@@ -42,7 +42,13 @@ a {
   background-color: rgba(0, 0, 0, 0.255);
 }
 .logoimg{
-    width:10vw
+    width:10vw;
+  
+}
+@media only screen and (max-width:768px){
+  .logoimg{
+    width:35vw;
+  }
 }
 .header .logo {
   display: block;
@@ -80,6 +86,7 @@ a {
   transition:  .2s ease-out;
   width: 18px;
 }
+
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
@@ -149,3 +156,10 @@ a {
 
 
 
+@media only screen and (max-width:768px){
+  .navicon{
+  scale:2;
+  margin-right:2vw;
+  margin-top:2vw;
+  }
+}

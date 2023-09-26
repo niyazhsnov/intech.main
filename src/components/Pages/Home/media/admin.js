@@ -1,7 +1,7 @@
 import React from 'react'
 const admin ={
   /*helmet*/
-  helmet_title:'InTech (Industrial Technologies)',
+  helmet_title:'Intech (Industrial Companies)',
   helmet_img:'https://img001.prntscr.com/file/img001/NRbdcV-lQ_im8InSvqvUYg.png',
        
  /*section1*/
@@ -10,7 +10,7 @@ const admin ={
     section1_paragraph:'Müasir dünyada texnologiya olmadan uğur qazanmaq çətindir. Biznesinizi inkişaf etdirmək üçün sizə lazım olan texnoloji imkanları təqdim edirik',
     section1_face_link:'https://m.facebook.com/profile.php?id=100092457157651&eav=AfZHuiwuOa2dyPUt5pCpKf9c1IFL67x-o3rtL8thPvqkfIN6iRJ16DRV80b32NRklpA&paipv=0',
     section1_insta_link:'https://www.instagram.com/intech.main/',
-    section1_linkedin_link:'https://www.linkedin.com/company/100031767/admin/feed/posts/',
+    section1_linkedin_link:'',
     section1_contact_button_link:'https://api.whatsapp.com/send?phone=%2B994998404434&data=ARDXrvi4ktHKtKWk4htVcJht9Oe0zsUKR8hI8KaFXUsJKHUXoMd8Fpmy9nsrS6GyqDfUQiwtWwIXPbI8lMhoVPKq1MbQaBLkSYEzOBeyzMXCNkirhFeenQKAsrOFwnI0mLVaEZYjqLA-i4NG--uddYPkrw&source=FB_Page&app=facebook&entry_point=page_cta',
     
     
@@ -49,67 +49,13 @@ const admin ={
       section4_gallery_img3:'https://s3-alpha-sig.figma.com/img/7332/c8f5/bf8c63e166d373606d019708c9fa6fb9?Expires=1696204800&Signature=cKt7msUZk4l~ZljDVNSJiUJ31jxZc6Z3IdOHervf9u7XgLk2Uy~DGgQoqTEFce~cnVx-6BRnOwM60bKkw9xaaYafl5AQKI3bMQJpJj1OuZSuosHaeXwD6TBQaPdbA1ny4NRxlhDCrtFGjIIEW5tYfnwBQFU7pNWQXFatyBA~2HupFpznNofL1olzlIWj6ncaAknsiI4PNZuDRfeWgPV1Iq-loD9ZaTv7DC3zszcwUuWWB3GdSWWi1RaDca6xEP0qBw0ZcJYHO3BQmawlgF7~Db1vYQHz2RMkT~hQoGiL1gLqOd-zAJIAEivUUvP0iWNotUZR2RtYrEHwver7y89QkA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
       section4_gallery_img4:'https://s3-alpha-sig.figma.com/img/1c85/69ae/8663d87019a474b6d0a0ad765f8d372b?Expires=1696204800&Signature=qPI0EPrNljMcDcDIhGtGpZ8RM7LLCmPt0kN3O7v87F~Lrt312AycaMpHOXHqBbMmgNUfTsXpI8x5pMZZJNO8f9YwZCVunfNqKZsCNtiRPOIric9b3Z17HyrPreiLyPVZqVXqPSvHSkF-evbPlszCXuR--S1QwtM~kOefIG2-IQUrC7833IsXAAoO6wIyPbwqOT-WdOyS7-ewe7~~iLN63nypV1PYPNPsgTSO67XuRPqm6EtLYKlxTi~ybJMYVp1m-4Iun1Gi-TfqTUtMF7Wf72pMioWBWSJM~SJUtvbEWYITrQ6eKt6qpP8qssZ95arKs64G50i36DseYT1yIyHBpg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
       section4_gallery_img5:'https://s3-alpha-sig.figma.com/img/71be/d9be/b838cf03c952033c6d5ae1a290256707?Expires=1696204800&Signature=Y4bvhWVqDAjcSMcAytSVlmmScabmNorTmImCCSagDLhiipLr~MRyfw00ANdsLpEFgiPEvpfRuv2j-43YIDmm8v3TQIZS24se56-RZq~2QCbebB3PJnZaQi5pb~9T4L7SPtRH5dISYfuNk8uJYKOhScF9KhmavK2Lz6nV3Hw-7jrYbjgm20vEOItWT~-CcdP8wG8-z0AWDG4sx8jp31INctsGlIlbZsiISmkBgmxccvWFGwQ~TkgS0MeabdrOg6UIELaESUbXuLvMuIf9afc7j88bajKRrvmZpLkyTE88MbIHwfIx1bi3V43r6LDeMllIBaCvsxWAT~mXmzGjNB-vGQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
-      section4_gallery_img6:'https://s3-alpha-sig.figma.com/img/71be/d9be/b838cf03c952033c6d5ae1a290256707?Expires=1696204800&Signature=Y4bvhWVqDAjcSMcAytSVlmmScabmNorTmImCCSagDLhiipLr~MRyfw00ANdsLpEFgiPEvpfRuv2j-43YIDmm8v3TQIZS24se56-RZq~2QCbebB3PJnZaQi5pb~9T4L7SPtRH5dISYfuNk8uJYKOhScF9KhmavK2Lz6nV3Hw-7jrYbjgm20vEOItWT~-CcdP8wG8-z0AWDG4sx8jp31INctsGlIlbZsiISmkBgmxccvWFGwQ~TkgS0MeabdrOg6UIELaESUbXuLvMuIf9afc7j88bajKRrvmZpLkyTE88MbIHwfIx1bi3V43r6LDeMllIBaCvsxWAT~mXmzGjNB-vGQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+      section4_gallery_img6:'',
       section4_gallery_img7:'',
       section4_gallery_img8:'',
       section4_gallery_img9:'',
       section4_gallery_img10:'',
     
-/*section5*/
-    section5_top_title:'TESTIMONALS',
-    section5_bottom_title:'Contrary to popular',
-    section5_paragraph:'There are many variations of passages of Lorem Ipsum available,but the majority have suffered alteration in some form,',
-    //section5_carousel
-      //card1
-      section5_carousel_card1_img:'https://s3-alpha-sig.figma.com/img/731b/356e/c84dd572476f56d06da14a8955a73807?Expires=1696204800&Signature=Do6lJM9IEfl5w7S2lMa0~Oa9xoYr19wqlAK8gA31UQfBDwXJKsqHXIFbI6~oJJpP9~hOI94fX3xHLVG0p0Tb5TZPrIDe7sOLSR9JrYUOhbxcXpCiJiI7ZijNx8ey5xd25j0H5lWiXJczW7Ajj0~~LokTPE0RHfI4i2KJjLN9CVXr6Oefx-IF05BwNw66UZzd730vu2OUo0QvZMpxQDNc2awU-oM2YLiPt-YIxWH0Tr~6N5UIoIDOPhJ7X3Mha7NGk0r7kaGyhdlqtqB3C01rsVhJu~iunFUGEjiTyg4WonKpt8nS4bWtIoDgEbbq6YKlPswRqNMjVUVV33dNLKrWvA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
-      section5_carousel_card1_name:'Elizabeth Harmon',
-      section5_carousel_card1_profession:'Designer',
-      section5_carousel_card1_comment:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
-      //card2
-      section5_carousel_card2_img:'https://s3-alpha-sig.figma.com/img/731b/356e/c84dd572476f56d06da14a8955a73807?Expires=1696204800&Signature=Do6lJM9IEfl5w7S2lMa0~Oa9xoYr19wqlAK8gA31UQfBDwXJKsqHXIFbI6~oJJpP9~hOI94fX3xHLVG0p0Tb5TZPrIDe7sOLSR9JrYUOhbxcXpCiJiI7ZijNx8ey5xd25j0H5lWiXJczW7Ajj0~~LokTPE0RHfI4i2KJjLN9CVXr6Oefx-IF05BwNw66UZzd730vu2OUo0QvZMpxQDNc2awU-oM2YLiPt-YIxWH0Tr~6N5UIoIDOPhJ7X3Mha7NGk0r7kaGyhdlqtqB3C01rsVhJu~iunFUGEjiTyg4WonKpt8nS4bWtIoDgEbbq6YKlPswRqNMjVUVV33dNLKrWvA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
-      section5_carousel_card2_name:'Elizabeth Harmon',
-      section5_carousel_card2_profession:'Designer',
-      section5_carousel_card2_comment:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
-      //card3
-      section5_carousel_card3_img:'https://s3-alpha-sig.figma.com/img/731b/356e/c84dd572476f56d06da14a8955a73807?Expires=1696204800&Signature=Do6lJM9IEfl5w7S2lMa0~Oa9xoYr19wqlAK8gA31UQfBDwXJKsqHXIFbI6~oJJpP9~hOI94fX3xHLVG0p0Tb5TZPrIDe7sOLSR9JrYUOhbxcXpCiJiI7ZijNx8ey5xd25j0H5lWiXJczW7Ajj0~~LokTPE0RHfI4i2KJjLN9CVXr6Oefx-IF05BwNw66UZzd730vu2OUo0QvZMpxQDNc2awU-oM2YLiPt-YIxWH0Tr~6N5UIoIDOPhJ7X3Mha7NGk0r7kaGyhdlqtqB3C01rsVhJu~iunFUGEjiTyg4WonKpt8nS4bWtIoDgEbbq6YKlPswRqNMjVUVV33dNLKrWvA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
-      section5_carousel_card3_name:'Elizabeth Harmon',
-      section5_carousel_card3_profession:'Designer',
-      section5_carousel_card3_comment:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
-      //card4
-      section5_carousel_card4_img:'',
-      section5_carousel_card4_name:'',
-      section5_carousel_card4_profession:'',
-      section5_carousel_card4_comment:'',
-      //card5
-      section5_carousel_card5_img:'',
-      section5_carousel_card5_name:'',
-      section5_carousel_card5_profession:'',
-      section5_carousel_card5_comment:'',
-      //card6
-      section5_carousel_card6_img:'',
-      section5_carousel_card6_name:'',
-      section5_carousel_card6_profession:'',
-      section5_carousel_card6_comment:'',
-      //card7
-      section5_carousel_card7_img:'',
-      section5_carousel_card7_name:'',
-      section5_carousel_card7_profession:'',
-      section5_carousel_card7_comment:'',
-      //card8
-      section5_carousel_card8_img:'',
-      section5_carousel_card8_name:'',
-      section5_carousel_card8_profession:'',
-      section5_carousel_card8_comment:'',
-      //card9
-      section5_carousel_card9_img:'',
-      section5_carousel_card9_name:'',
-      section5_carousel_card9_profession:'',
-      section5_carousel_card9_comment:'',
-      //card10
-      section5_carousel_card10_img:'',
-      section5_carousel_card10_name:'',
-      section5_carousel_card10_profession:'',
-      section5_carousel_card10_comment:'',
+
 /*section6*/
     section6_top_title:'NEWS',
     section6_bottom_title:'Contrary to popular',
@@ -127,14 +73,14 @@ const admin ={
       section6_news_card3_img:'https://img001.prntscr.com/file/img001/3xilckzwSeyzbWz86iEssA.jpg',
       section6_news_card3_paragraph:'Azərbaycan Texniki Universitetinin (AzTU) "InTech" komandası festivalın Hackathon kateqotiyasında iştirak edərək 25 komanda arasında 3-cü yerə layiq görülüb.',
       //card4
-      section6_news_card4_img:'',
-      section6_news_card4_paragraph:'',
+      section6_news_card4_img:'https://img001.prntscr.com/file/img001/3xilckzwSeyzbWz86iEssA.jpg',
+      section6_news_card4_paragraph:'Azərbaycan Texniki Universitetinin (AzTU) "InTech" komandası festivalın Hackathon kateqotiAzərbaycan Texniki Universitetinin (AzTU) "InTech" komandası festivalın Hackathon kateqoti',
       //card5
-      section6_news_card5_img:'',
-      section6_news_card5_paragraph:'',
+      section6_news_card5_img:'https://img001.prntscr.com/file/img001/3xilckzwSeyzbWz86iEssA.jpg',
+      section6_news_card5_paragraph:'Azərbaycan Texniki Universitetinin (AzTU)Azərbaycan Texniki Universitetinin (AzTU)Azərbaycan Texniki Universitetinin (AzTU)Azərbaycan Texniki Universitetinin (AzTU)',
       //card6
-      section6_news_card6_img:'',
-      section6_news_card6_paragraph:'',
+      section6_news_card6_img:'https://img001.prntscr.com/file/img001/3xilckzwSeyzbWz86iEssA.jpg',
+      section6_news_card6_paragraph:'Azərbaycan Texniki Universitetinin (AzTU)Azərbaycan Texniki Universitetinin (AzTU)Azərbaycan Texniki Universitetinin (AzTU)',
       //card7
       section6_news_card7_img:'',
       section6_news_card7_paragraph:'',

@@ -257,7 +257,7 @@ const Home = () => {
          <h1>{admin.section7_bottom_title}</h1>
          <p className='section3_p'>{admin.section7_paragraph}</p>
 
- <Carousel className='carousel3'
+ <Carousel className='carousel3 pc'
         
         useKeyboardArrows={true}
         swipeable={true}
@@ -276,7 +276,7 @@ const Home = () => {
           }
          <div className='command_card'>
          <div className='testimonal_card_user'>
-          <img src={admin.section7_member1_img}/>
+          <img id='sulman_hoca' src={admin.section7_member1_img}/>
           <div className='testimonal_card_user_texts'>
             <h3>{admin.section7_member1_name}</h3>
             <p>{admin.section7_member1_profession}</p>
@@ -414,7 +414,166 @@ const Home = () => {
         </div>
 
         </Carousel>
+        <Carousel className='carousel3 mobile'
+        
+        
+        useKeyboardArrows={true}
+        swipeable={true}
+        showStatus={false}
+        showThumbs={false}
+        showArrows={false}
+        emulateTouch={true}
+        swipeScrollTolerance={50}
+        showIndicators={false}
+       centerMode={true}
+       centerSlidePercentage={70}
+       selectedItem={0}
+        
+        >
+          {//member1
+          }
+         <div className='command_card'>
+         <div className='testimonal_card_user'>
+          <img id='sulman_hoca' src={admin.section7_member1_img}/>
+          <div className='testimonal_card_user_texts'>
+            <h3>{admin.section7_member1_name}</h3>
+            <p>{admin.section7_member1_profession}</p>
+          </div>
+      
+         </div>
+         <p id='command_comment'>{admin.section7_member1_about}</p>
+         </div>
+
+         {//member2
+         }
+         <div className='command_card'>
+         <div className='testimonal_card_user'>
+          <img id='sulman_hoca' src={admin.section7_member2_img}/>
+          <div  className='testimonal_card_user_texts'>
+            <h3>{admin.section7_member2_name}</h3>
+            <p>{admin.section7_member2_profession}</p>
+          </div>
+      
+         </div>
+         <p id='command_comment'>{admin.section7_member2_about}</p>
+         </div>
+        
+        {//member3
+        }
+         <div className='command_card'>
+         <div className='testimonal_card_user'>
+          <img id='sulman_hoca' src={admin.section7_member3_img}/>
+          <div className='testimonal_card_user_texts'>
+            <h3>{admin.section7_member3_name}</h3>
+            <p>{admin.section7_member3_profession}</p>
+          </div>
+      
+         </div>
+         <p id='command_comment'>{admin.section7_member3_about}</p>
+         </div>
+          
+
+             {//member4
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member4_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member4_name}</h3>
+           <p>{admin.section7_member4_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member4_about}</p>
+        </div>
+
+           {//member5
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member5_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member5_name}</h3>
+           <p>{admin.section7_member5_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member5_about}</p>
+        </div>
+
+           {//member6
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member6_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member6_name}</h3>
+           <p>{admin.section7_member6_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member6_about}</p>
+        </div>
+
+           {//member7
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member7_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member7_name}</h3>
+           <p>{admin.section7_member7_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member7_about}</p>
+        </div>
+
+           {//member8
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member8_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member8_name}</h3>
+           <p>{admin.section7_member8_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member8_about}</p>
+        </div>
+
+           {//member9
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member9_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member9_name}</h3>
+           <p>{admin.section7_member9_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member9_about}</p>
+        </div>
+
+            {//member10
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member10_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member10_name}</h3>
+           <p>{admin.section7_member10_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member10_about}</p>
+        </div>
+
+        </Carousel>
        </section> 
+       <div id='end'></div>
     </div>
   )
 }

@@ -32,7 +32,7 @@ const admin ={
 /*section3*/
     section3_top_title:'xidmət',
     section3_bottom_title:'Xidmətlərimiz',
-    section3_paragraph:'There are many variations of passages of Lorem Ipsum available,but the majority have suffered alteration in some form,',
+    section3_paragraph:'Veb saytların qurulması, mobil aplikasiyaların qurulması, 3D çap xidməti, 3D modelləşdirmə xidməti,Logo dizaynı,Layihələrin prototipləşdirilməsi və elektronik sxemlərin qurulması',
        ///section3_carousel
        section3_carousel_card1_img:'https://img001.prntscr.com/file/img001/Y2r12rlgQWCAXK2jWfl_wA.png',
        section3_carousel_card2_img:'https://img001.prntscr.com/file/img001/pg-Ax-TtT3iJENZZzPEKSA.png',
@@ -58,8 +58,8 @@ const admin ={
 
 /*section6*/
     section6_top_title:'Haqqımızda',
-    section6_bottom_title:'Contrary to popular',
-    section6_paragraph:'There are many variations of passages of Lorem Ipsum available,but the majority have suffered alteration in some form,',
+    section6_bottom_title:'Nə işlər görürük?',
+    section6_paragraph:'Gördüyümüz işlər və gətirdiyimiz yeniliklərlə daim öndəyik!',
     section6_see_more_button:'https://www.instagram.com/intech.main/',
      
      //section6_news_container

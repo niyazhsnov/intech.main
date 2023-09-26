@@ -297,7 +297,7 @@ const Home = () => {
           </div>
       
          </div>
-         <p>{admin.section7_member2_about}</p>
+         <p id='command_comment'>{admin.section7_member2_about}</p>
          </div>
         
         {//member3
@@ -311,7 +311,7 @@ const Home = () => {
           </div>
       
          </div>
-         <p>{admin.section7_member3_about}</p>
+         <p id='command_comment'>{admin.section7_member3_about}</p>
          </div>
           
 
@@ -326,7 +326,7 @@ const Home = () => {
          </div>
      
         </div>
-        <p>{admin.section7_member4_about}</p>
+        <p id='command_comment'>{admin.section7_member4_about}</p>
         </div>
 
            {//member5
@@ -340,7 +340,7 @@ const Home = () => {
          </div>
      
         </div>
-        <p>{admin.section7_member5_about}</p>
+        <p id='command_comment'>{admin.section7_member5_about}</p>
         </div>
 
            {//member6
@@ -354,7 +354,7 @@ const Home = () => {
          </div>
      
         </div>
-        <p>{admin.section7_member6_about}</p>
+        <p id='command_comment'>{admin.section7_member6_about}</p>
         </div>
 
            {//member7
@@ -368,7 +368,7 @@ const Home = () => {
          </div>
      
         </div>
-        <p>{admin.section7_member7_about}</p>
+        <p id='command_comment'>{admin.section7_member7_about}</p>
         </div>
 
            {//member8
@@ -382,7 +382,7 @@ const Home = () => {
          </div>
      
         </div>
-        <p>{admin.section7_member8_about}</p>
+        <p id='command_comment'>{admin.section7_member8_about}</p>
         </div>
 
            {//member9
@@ -396,7 +396,7 @@ const Home = () => {
          </div>
      
         </div>
-        <p>{admin.section7_member9_about}</p>
+        <p id='command_comment'>{admin.section7_member9_about}</p>
         </div>
 
             {//member10
@@ -410,7 +410,7 @@ const Home = () => {
          </div>
      
         </div>
-        <p>{admin.section7_member10_about}</p>
+        <p id='command_comment'>{admin.section7_member10_about}</p>
         </div>
 
         </Carousel>

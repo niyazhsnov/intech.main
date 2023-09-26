@@ -57,7 +57,7 @@ const admin ={
     
 
 /*section6*/
-    section6_top_title:'NEWS',
+    section6_top_title:'Haqqımızda',
     section6_bottom_title:'Contrary to popular',
     section6_paragraph:'There are many variations of passages of Lorem Ipsum available,but the majority have suffered alteration in some form,',
     section6_see_more_button:'https://www.instagram.com/intech.main/',

@@ -1,482 +1,581 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-.section1{
-    background-image: url('https://img001.prntscr.com/file/img001/Uoh95hGWRo2CEE23-NilJw.png');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height:52vw;
-    position:relative;
-   
-   
-}
-
-.body{
-    overflow: hidden;
-}
-.section1_div{
-    display: flex;
-  padding-top:5%;
-    padding-bottom: 5%;
-   
-    color:white;
+import React from 'react'
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import {Carousel} from 'react-responsive-carousel';
+import { Link } from "react-scroll";
+import {Helmet} from "react-helmet";
+import './Home.css'
+import admin from './media/admin'
+const Home = () => {
+  return (
     
-    font-family: 'Poppins', sans-serif;
+    <div className='body'>
+           <Helmet>
+                <meta charSet="utf-8" />
+                <title>{admin.helmet_title}</title>
+                <link rel="icon" type='image/png' href={admin.helmet_img} />
+            </Helmet>
+
+       <section className='section1' >
+       
+             
+          <div className='section1_div'>
+          <ul>
+            <li><a href={admin.section1_face_link}><img src='https://img001.prntscr.com/file/img001/bu3LOMwUSEWVcCIOuIV6Cw.png'/></a></li>
+            <li><a href={admin.section1_insta_link}><img src='https://img001.prntscr.com/file/img001/gN1EEhGdSMe4tG-Z_AWLRg.png'/></a></li>
+            <li><a href={admin.section1_linkedin_link}><img src='https://img001.prntscr.com/file/img001/4v00tewoSMaJCul6kx1E1g.png'/></a></li>
+          </ul>
+          <div className='section1_div_text'>
+            <h1>{admin.section1_title}</h1>
+           <p id='elaqe' >{admin.section1_paragraph}</p>
+           <a href={admin.section1_contact_button_link}><button  className='section1_button'>Bizimlə Əlaqə</button></a>
+          
+          </div>
+        </div>
+       </section>
+       <section className='section2' id='first'>
+       
+         <div className='carousel_card' >
+         <ul>
+          <li className='carousel_card_icon'><img src={admin.carousel_card1_img}></img></li>
+          <li className='carousel_card_title' >{admin.carousel_card1_title}</li>
+          <li className='carousel_card_p'>{admin.carousel_card1_paragraph}</li>
+         </ul>
+         </div>
+         <div className='carousel_card'>
+         <ul>
+          <li className='carousel_card_icon'><img src={admin.carousel_card2_img}></img></li>
+          <li className='carousel_card_title'>{admin.carousel_card2_title}</li>
+          <li className='carousel_card_p'>{admin.carousel_card2_paragraph}</li>
+         </ul>
+         </div>
+         <div className='carousel_card'>
+         <ul>
+          <li className='carousel_card_icon'><img src={admin.carousel_card3_img}></img></li>
+          <li className='carousel_card_title'>{admin.carousel_card3_title}</li>
+          <li className='carousel_card_p'>{admin.carousel_card3_paragraph}</li>
+         </ul>
+         </div>
+        
+       </section>
+       <section className='section3' id='xidmetlerimiz'>
+         <div className='section3_div1'>
+          <div className='title_line'></div>
+          <p>{admin.section3_top_title}</p>
+         </div>
+         <h1 className='section3_h1'>{admin.section3_bottom_title}</h1>
+         <p className='section3_p'>{admin.section3_paragraph}</p>
+
+ <Carousel className='carousel2'
+         
+        useKeyboardArrows={true}
+        swipeable={true}
+        showStatus={false}
+        showThumbs={false}
+        showArrows={false}
+        emulateTouch={true}
+       centerMode={true}
+       selectedItem={1}
+
+       centerSlidePercentage={50}
+        
+        >
+         <div><img src={admin.section3_carousel_card1_img}/></div>
+         <div><img src={admin.section3_carousel_card2_img}/></div>
+         <div><img src={admin.section3_carousel_card3_img}/></div>
+        </Carousel>
+       </section>
+       <section className='section4' id='layihelendirme'>
+       <div className='section3_div1'>
+          <div className='title_line'></div>
+          <p>{admin.section4_top_title}</p>
+         </div>
+         <h1 >{admin.section4_bottom_title}</h1>
+         <p className='section3_p'>{admin.section4_paragraph}</p>
+         <div className='section4_gallery'>
+        
+        <div className='elipse1'><div className='elipse2'><div className='elipse3'><div className='elipse4'><div className='elipse5'><div className='elipse6'></div></div></div></div></div></div>
+         <div className='image_container'>
+          <img src={admin.section4_gallery_img1}/>
+          <img src={admin.section4_gallery_img2}/>
+          <img src={admin.section4_gallery_img3}/>
+          <img src={admin.section4_gallery_img4}/>
+          <img src={admin.section4_gallery_img5}/> 
+          <img src={admin.section4_gallery_img6}/>
+          <img src={admin.section4_gallery_img7}/>
+          <img src={admin.section4_gallery_img8}/>
+          <img src={admin.section4_gallery_img9}/>
+          <img src={admin.section4_gallery_img10}/>
+          </div>
+         </div>
+       </section>
+   
+       <section className='section4' id='xeberler'>
+       <div className='section3_div1'>
+          <div className='title_line'></div>
+          <p>{admin.section6_top_title}</p>
+         </div>
+         <h1>{admin.section6_bottom_title}</h1>
+         <p className='section3_p'>{admin.section6_paragraph}</p>
+        <a href={admin.section6_see_more_button}> <button className='news_button'>Daha çox..</button></a>
+         <div className='section4_gallery'>
+        <div className='elipse1'><div className='elipse2'><div className='elipse3'><div className='elipse4'><div className='elipse5'><div className='elipse6'></div></div></div></div></div></div>
+   <div className='news_container'>
+          {
+            //news1
+          }
+          <div className='news_card' >
+          <img src={admin.section6_news_card1_img}/>
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card1_paragraph}</p>
+           </div>
+           
+          </div>
+
+          {
+            //news2
+          }
+          <div className='news_card' >
+          <img src={admin.section6_news_card2_img}/>
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card2_paragraph}</p>
+           </div>
+          </div>
+
+          {
+            //news3
+          }
+          <div className='news_card' >
+          <img src={admin.section6_news_card3_img}/>
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card3_paragraph}</p>
+           </div>
+          </div>
+
+           
+          {
+            //news4
+          }
+          <div className='news_card' >
+          <img src={admin.section6_news_card4_img}/>
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card4_paragraph}</p>
+           </div>
+          </div> 
 
 
-}
+         {
+            //news5
+          } 
+          <div className='news_card' >
+          <img src={admin.section6_news_card5_img}/>
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card5_paragraph}</p>
+           </div>
+          </div> 
 
-.section1 ul{
-    
-    list-style: none;
-   margin-top:15%;
-   margin-left:-1vw;
-   line-height: 4vw;
-  
+            
+            {
+            //news6
+          }
 
-}
-.section1 ul li a img{
-    width:2.5vw;
+          <div className='news_card' >
+          <img src={admin.section6_news_card6_img}/>
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card6_paragraph}</p>
+           </div>
+          </div> 
+
+          
+{/*      
+         {
+            //news7
+          }
+          <div className='news_card' >
+          <img src={admin.section6_news_card7_img}/>
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card7_paragraph}</p>
+           </div>
+          </div> */}
+
+
+{/* 
+           {
+            //news8
+          }
+
+          <div className='news_card' >
+          <img src={admin.section6_news_card8_img}/>
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card8_paragraph}</p>
+           </div>
+          </div>
+  */}
  
-}
-.section1_div{
-   text-align: center;
-   width:fit-content;
+{/*       
+            {
+            //news9
+          }
+          <div className='news_card' >
+          <img src={admin.section6_news_card9_img}/>
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card9_paragraph}</p>
+           </div>
+          </div> */}
 
-}
-.section1_div_text{
-  justify-content: center;
-  align-items: center;
-}
-.section1_div_text h1{
-  font-size: 7vw;
-  text-align: center;
-  margin-left:9vw;
-    margin-top:9vw;
-  width:70vw;
-  line-height: 110%;
-}
-.section1_div_text p{
-    font-size: 1.3vw;
-    padding-top:5%;
-    padding-left:2.5vw;
-    padding-right:2.5vw;
-    width:80vw;
-    padding-bottom:5%;
-    
-}
-.section1_button{
-    width:20vw;
-    
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 3vw;
-    padding:1.5vw;
-    font-family: 'Poppins', sans-serif;
-    font-size:1.5vw;
-   border:2px solid white;
-   color:white;
+          
+{/*           
+             {
+            //news10
+          }
+          <div className='news_card' >
+          <img src={admin.section6_news_card10_img}/>
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card10_paragraph}</p>
+           </div>
+          </div> */}
 
-   
-}
-.section1_button:hover{
-    background-color: white;
-    color:black;
-    transition: 0.7s;
-}
+          
+          </div>
+          
+         </div>
+       </section>
+       <section className='section3' id='komandamiz'>
+         <div className='section3_div1'>
+          <div className='title_line'></div>
+          <p>{admin.section7_top_title}</p>
+         </div>
+         <h1>{admin.section7_bottom_title}</h1>
+         <p className='section3_p'>{admin.section7_paragraph}</p>
 
+ <Carousel className='carousel3 pc'
+        
+        useKeyboardArrows={true}
+        swipeable={true}
+        showStatus={false}
+        showThumbs={false}
+        showArrows={false}
+        emulateTouch={true}
+        swipeScrollTolerance={50}
+        showIndicators={false}
+       centerMode={true}
+       centerSlidePercentage={30}
+       selectedItem={0}
+        
+        >
+          {//member1
+          }
+         <div className='command_card'>
+         <div className='testimonal_card_user'>
+          <img id='sulman_hoca' src={admin.section7_member1_img}/>
+          <div className='testimonal_card_user_texts'>
+            <h3>{admin.section7_member1_name}</h3>
+            <p>{admin.section7_member1_profession}</p>
+          </div>
+      
+         </div>
+         <p id='command_comment'>{admin.section7_member1_about}</p>
+         </div>
 
-.section2{
-    background-color: black;
-    padding-bottom:5%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-   
-}
+         {//member2
+         }
+         <div className='command_card'>
+         <div className='testimonal_card_user'>
+          <img src={admin.section7_member2_img}/>
+          <div className='testimonal_card_user_texts'>
+            <h3>{admin.section7_member2_name}</h3>
+            <p>{admin.section7_member2_profession}</p>
+          </div>
+      
+         </div>
+         <p id='command_comment'>{admin.section7_member2_about}</p>
+         </div>
+        
+        {//member3
+        }
+         <div className='command_card'>
+         <div className='testimonal_card_user'>
+          <img src={admin.section7_member3_img}/>
+          <div className='testimonal_card_user_texts'>
+            <h3>{admin.section7_member3_name}</h3>
+            <p>{admin.section7_member3_profession}</p>
+          </div>
+      
+         </div>
+         <p id='command_comment'>{admin.section7_member3_about}</p>
+         </div>
+          
 
+             {//member4
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img src={admin.section7_member4_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member4_name}</h3>
+           <p>{admin.section7_member4_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member4_about}</p>
+        </div>
 
-/*carousel*/
-.carousel{
-    width:100%;
-   
+           {//member5
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img src={admin.section7_member5_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member5_name}</h3>
+           <p>{admin.section7_member5_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member5_about}</p>
+        </div>
 
- 
-}
+           {//member6
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img src={admin.section7_member6_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member6_name}</h3>
+           <p>{admin.section7_member6_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member6_about}</p>
+        </div>
 
-  .carousel_card{
-  color:white;
-    background-color: #031730;
-  width:23vw;
- 
- 
-    border-radius: 3vw;
-   padding-right:1vw;
-   padding-top:3vw;
-   height:25vw;
-   margin-right:3vw;
-   text-align: left;
- 
-    font-family: 'Poppins', sans-serif;
-    
-  }
-  .carousel_card ul{
-    padding-left:2vw;
-    margin-bottom:1vw;
-  }
-  .carousel_card:hover{
-   
- 
-    background-color:  hsla(217, 100%, 50%, 1);
+           {//member7
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img src={admin.section7_member7_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member7_name}</h3>
+           <p>{admin.section7_member7_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member7_about}</p>
+        </div>
 
-    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-    
-    background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-    
-    background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );;
-  }
-  
-.carousel_card_title{
-    font-size:2.5vw;
+           {//member8
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img src={admin.section7_member8_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member8_name}</h3>
+           <p>{admin.section7_member8_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member8_about}</p>
+        </div>
 
-}
-.carousel_card_p{
-    font-size:0.8vw;
-}
-  .carousel_card ul li{
-    list-style: none;
-  }
-  .carousel_card_icon img{
-    width: 5vw;
-    
-  }
-  .section3{
-    background-color: #010912;
-    color:white;
-    padding-top:5%;
-    padding-bottom:5%;
-    font-family: 'Poppins', sans-serif;
-  }
-  .section3_div1{
-    display: flex;
-    align-items: center; 
-  }
-  .section3_div1 p{
-    font-size:2vw;
-  }
-  .title_line{
-    width:5vw;
-    margin-left:3% ;
-    margin-right:2%;
-    height:0.4vw;
-    background-color: #0B94B8;
-  }
-  .section3 h1{
-    margin-left:3vw;
-    font-size:3vw;
-  }
-  .section3_p{
-    margin-left:3vw;
-    margin-bottom:1vw;
-    font-size:1.1vw;
-  }
+           {//member9
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img src={admin.section7_member9_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member9_name}</h3>
+           <p>{admin.section7_member9_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member9_about}</p>
+        </div>
 
-.carousel2 div{
-  height:31vw;
+            {//member10
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img src={admin.section7_member10_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member10_name}</h3>
+           <p>{admin.section7_member10_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member10_about}</p>
+        </div>
 
-}
-.carousel2 div img{
-   scale:0.7;
+        </Carousel>
+        <Carousel className='carousel3 mobile'
+        
+        
+        useKeyboardArrows={true}
+        swipeable={true}
+        showStatus={false}
+        showThumbs={false}
+        showArrows={false}
+        emulateTouch={true}
+        swipeScrollTolerance={50}
+        showIndicators={false}
+       centerMode={true}
+       centerSlidePercentage={70}
+       selectedItem={0}
+        
+        >
+          {//member1
+          }
+         <div className='command_card'>
+         <div className='testimonal_card_user'>
+          <img id='sulman_hoca' src={admin.section7_member1_img}/>
+          <div className='testimonal_card_user_texts'>
+            <h3>{admin.section7_member1_name}</h3>
+            <p>{admin.section7_member1_profession}</p>
+          </div>
+      
+         </div>
+         <p id='command_comment'>{admin.section7_member1_about}</p>
+         </div>
 
+         {//member2
+         }
+         <div className='command_card'>
+         <div className='testimonal_card_user'>
+          <img id='sulman_hoca' src={admin.section7_member2_img}/>
+          <div  className='testimonal_card_user_texts'>
+            <h3>{admin.section7_member2_name}</h3>
+            <p>{admin.section7_member2_profession}</p>
+          </div>
+      
+         </div>
+         <p id='command_comment'>{admin.section7_member2_about}</p>
+         </div>
+        
+        {//member3
+        }
+         <div className='command_card'>
+         <div className='testimonal_card_user'>
+          <img id='sulman_hoca' src={admin.section7_member3_img}/>
+          <div className='testimonal_card_user_texts'>
+            <h3>{admin.section7_member3_name}</h3>
+            <p>{admin.section7_member3_profession}</p>
+          </div>
+      
+         </div>
+         <p id='command_comment'>{admin.section7_member3_about}</p>
+         </div>
+          
 
-}
+             {//member4
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member4_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member4_name}</h3>
+           <p>{admin.section7_member4_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member4_about}</p>
+        </div>
 
-.section4{
-    padding-top:5vw;
-    background-color: black;
-    color:white;
-    position:relative;
-    padding-bottom:5%;
-    font-family: 'Poppins', sans-serif;
-  
-}
-.section4 h1{
-    margin-left:3vw;
-    font-size:3vw;
-}
+           {//member5
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member5_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member5_name}</h3>
+           <p>{admin.section7_member5_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member5_about}</p>
+        </div>
 
-.elipse1{
-margin-top:10vw;
-    border:2.5vw solid #06D2FA;
-    width: 70vw;
-    height:70vw;
-    border-radius: 50%;
-    display: -webkit-box;
+           {//member6
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member6_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member6_name}</h3>
+           <p>{admin.section7_member6_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member6_about}</p>
+        </div>
 
-margin-left: 60%;
-}
-.elipse2{
-    border:2vw solid #06D2FA;
-    width: 60vw;
-    height:60vw;
-    border-radius: 50%;
-    display: -webkit-box;
-margin-top: 3vw;
-margin-left: 6%;
-}
-.elipse3{
-    border:1.5vw solid #06D2FA;
-    width: 50vw;
-    height:50vw;
-    border-radius: 50%;
-    display: -webkit-box;
-margin-top: 3vw;
-margin-left: 6%;
-}
-.elipse4{
-    border:1vw solid #06D2FA;
-    width: 40vw;
-    height:40vw;
-    border-radius: 50%;
-    display: -webkit-box;
-margin-top: 3vw;
-margin-left: 6%;
-}
-.elipse5{
-    border:0.5vw solid #06D2FA;
-    width: 30vw;
-    height:30vw;
-    border-radius: 50%;
-    display: -webkit-box;
-margin-top: 3vw;
-margin-left: 6%;
-}
-.elipse6{
-    border:0.5vw solid #06D2FA;
-    width: 25vw;
-    height:25vw;
-    border-radius: 50%;
-    display: -webkit-box;
-margin-top: 2vw;
-margin-left: 10%;
-}
-.section4_gallery{
-    color:white;
-}
-.image_container{
-    margin-top:-80vw;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap:10px;
-    width:100%;
-}
-.image_container img{
-    border-radius: 4vw;
-    width:25vw;
-    margin-left:20px;
-    
+           {//member7
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member7_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member7_name}</h3>
+           <p>{admin.section7_member7_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member7_about}</p>
+        </div>
 
-}
-.image_container img:hover{
-   opacity: 0.7;
-}
-.testimonal_card{
-    background-color:  hsla(217, 100%, 50%, 1);
+           {//member8
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member8_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member8_name}</h3>
+           <p>{admin.section7_member8_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member8_about}</p>
+        </div>
 
-    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-    
-    background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-    
-    background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );;
-    width:40vw;
-    height:25vw;
-    padding:3vw;
-    border-radius: 4vw;
-    display: flex;
-    flex-direction: column;
-    font-size:1.5vw;
-  }
-  .testimonal_card p{
-    margin-top:1vw; 
-    font-size: 1.3vw;
-  }
-.testimonal_card_user{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
-    font-size:1.3vw;
-}
-.testimonal_card_user>img{
-  width:5vw !important;
-  height: 5vw !important;
-  border-radius: 50%;
-}
-.testimonal_card_user_texts{
- margin-left:20px;
-}
+           {//member9
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member9_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member9_name}</h3>
+           <p>{admin.section7_member9_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member9_about}</p>
+        </div>
 
-.carousel3{
-    margin-top:6vw;
-}
-.news_button{
-    width:9vw;
-    background-color: #0B94B8;
-    color:white;
-    padding:1vw;
-    border-radius: 1vw;
-    border:none;
-    cursor: pointer;
-    margin-left:70%;
-    font-size:1.2vw;
-}
-.news_container{
- margin-top:-83vw;
- justify-content: center;
- align-items: center;
-  width:100%;
-   height:100%;
-  
-  display: flex;
-  flex-wrap:wrap;
+            {//member10
+        }
+        <div className='command_card'>
+        <div className='testimonal_card_user'>
+         <img id='sulman_hoca' src={admin.section7_member10_img}/>
+         <div className='testimonal_card_user_texts'>
+           <h3>{admin.section7_member10_name}</h3>
+           <p>{admin.section7_member10_profession}</p>
+         </div>
+     
+        </div>
+        <p id='command_comment'>{admin.section7_member10_about}</p>
+        </div>
 
-}
-.news_card{
-  float: left;
-  clear: both;
-  margin-right:0;
-  margin-left:0;
-  margin-top:2vw;
-   background-size:cover;
-   background-position: center;
- width:50vw;
- margin-right:-10vw;
- overflow: hidden;
-box-sizing: border-box;
-
- position:relative;
-  height:100% !important;display: flex;
- 
-}
-.news_card img{
-  width:57%;
-  height:20%;
-  border-radius:3vw;
-}
-.news_paragraph{
-    width:51%;
-    padding:3%;
-    padding-bottom:6%;
-    height:20%;
-    left:0;
-   
-    overflow: hidden;
-    font-size :1vw;
-   position:absolute;
-    background-color: #07d2fbd2;
-    border-bottom-left-radius: 3vw;
-    bottom:0%;
-    border-bottom-right-radius: 3vw;
-}
-.command_card{
-    background-color: #031730;
-    width:27vw;
-    height:30vw;
-    padding:3vw;
-    border-radius: 3vw;
-    display: flex;
-    flex-direction: column;
-    font-size :1.1vw;
-}
-.command_card p{
-  margin-top:1vw;
+        </Carousel>
+       </section> 
+       <div id='end'></div>
+    </div>
+  )
 }
 
-@media only screen and (max-width:768px){
-  .section1{
-  height:170vw;
-  z-index: -20;
-  }
-  .section1_div{
-   margin-left:-4.5vw
-  }
-  .section1_div ul li a img{
-    width:5vw;
-  }
-  .section1_div ul{
-     display:none;
-  }
-  #elaqe{
-    margin-left:6vw;
-    font-size:3vw;
-  }
-  .section1_div_text{
-   margin-top:45vw;
-   margin-left:5vw;
-
-     }
-   .section1_div_text h1{
-    width:80%;
-    
-    font-size:9vw;
-   }
-   .section1_button{
-    margin-left:-6vw;
-    scale:1.4;
-   }
- .section2{
-    margin-top:-50vw;
-    z-index: 9999;
-    background-color: #01091200;
- }
-   .carousel_card{
-    width:27vw;
-   
-    height:40vw;  overflow: scroll;
-   }
-   .carousel_card_title{
-    font-size:3vw;
-   }
-   .carousel_card_p{
-    font-size:2.5vw;
-   }
-   .section3_div1>p{
-    font-size:4vw;
-  
-   }
-   .section3 h1{
-    font-size:5vw;
-   }
-   .section3_p{
-    font-size:2.5vw;
-   }
-   .carousel2 div img{
-    scale:0.9
-   }
-   .section4 h1{
-    font-size:5vw;
-   }
-   .news_card{
-    width:110vw;
-    margin-left:20vw;
-   }
-   .news_paragraph{
-    overflow: scroll;
-    font-size:2.5vw;
-   }
-   .command_card{
-    width:28.5vw;
-    height:40vw;
-   
-   }
-   #command_comment{
-    font-size:3vw; overflow: scroll;
-    text-align: left;
-   }
-   .testimonal_card_user_texts{
-     font-size:3vw;
-   }
-}
+export default Home

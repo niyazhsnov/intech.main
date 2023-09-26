@@ -398,6 +398,7 @@ box-sizing: border-box;
 @media only screen and (max-width:768px){
   .section1{
   height:170vw;
+  z-index: -20;
   }
   .section1_div{
    margin-left:-4.5vw
@@ -426,11 +427,15 @@ box-sizing: border-box;
     margin-left:-6vw;
     scale:1.4;
    }
- 
+ .section2{
+    margin-top:-50vw;
+    z-index: 9999;
+    background-color: #01091200;
+ }
    .carousel_card{
     width:27vw;
    
-    height:30vw;  overflow: scroll;
+    height:40vw;  overflow: scroll;
    }
    .carousel_card_title{
     font-size:3vw;

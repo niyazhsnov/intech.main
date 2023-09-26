@@ -283,7 +283,7 @@ const Home = () => {
           </div>
       
          </div>
-         <p>{admin.section7_member1_about}</p>
+         <p id='command_comment'>{admin.section7_member1_about}</p>
          </div>
 
          {//member2

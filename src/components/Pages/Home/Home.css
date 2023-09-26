@@ -406,36 +406,41 @@ box-sizing: border-box;
     width:5vw;
   }
   .section1_div ul{
-    margin-top:55vw;
-   
-    
-    margin-right:1vw;
+     display:none;
+  }
+  #elaqe{
+    margin-left:6vw;
+    font-size:3vw;
   }
   .section1_div_text{
    margin-top:45vw;
-   
+   margin-left:5vw;
 
      }
    .section1_div_text h1{
-    width:100%;
-    margin-left:-1.5vw;
+    width:80%;
+    
     font-size:9vw;
    }
    .section1_button{
     margin-left:-6vw;
+    scale:1.4;
    }
+ 
    .carousel_card{
     width:27vw;
-    height:30vw;
+   
+    height:30vw;  overflow: scroll;
    }
    .carousel_card_title{
     font-size:3vw;
    }
    .carousel_card_p{
-    font-size:1vw;
+    font-size:2.5vw;
    }
    .section3_div1>p{
     font-size:4vw;
+  
    }
    .section3 h1{
     font-size:5vw;
@@ -448,5 +453,25 @@ box-sizing: border-box;
    }
    .section4 h1{
     font-size:5vw;
+   }
+   .news_card{
+    width:110vw;
+    margin-left:20vw;
+   }
+   .news_paragraph{
+    overflow: scroll;
+    font-size:2.5vw;
+   }
+   .command_card{
+    width:28.5vw;
+    height:40vw;
+   
+   }
+   #command_comment{
+    font-size:3vw; overflow: scroll;
+    text-align: left;
+   }
+   .testimonal_card_user_texts{
+     font-size:3vw;
    }
 }

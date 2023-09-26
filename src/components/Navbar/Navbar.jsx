@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav>
 <header class="header">
-<HideBetween div startDivID="first" endDivID="komandamiz"><a href="" class="logo"><img className='logoimg' src='https://img001.prntscr.com/file/img001/8BsRCpmTQme2e9lKUTmLfA.png'></img></a>
+<HideBetween div startDivID="first" endDivID="end"><a href="" class="logo"><img className='logoimg' src='https://img001.prntscr.com/file/img001/8BsRCpmTQme2e9lKUTmLfA.png'></img></a>
 </HideBetween>
 
   

@@ -32,19 +32,8 @@ const Home = () => {
           </div>
         </div>
        </section>
-       <section className='section2' >
-        <Carousel className='carousel'
-         autoPlay
-        useKeyboardArrows={true}
-        swipeable={true}
-        showStatus={false}
-        showThumbs={false}
-        showArrows={false}
-        emulateTouch={true}
-        centerMode={true}
-        centerSlidePercentage={30}
-        
-        >
+       <section className='section2' id='first'>
+       
          <div className='carousel_card' >
          <ul>
           <li className='carousel_card_icon'><img src={admin.carousel_card1_img}></img></li>
@@ -66,18 +55,18 @@ const Home = () => {
           <li className='carousel_card_p'>{admin.carousel_card3_paragraph}</li>
          </ul>
          </div>
-        </Carousel>
+        
        </section>
        <section className='section3' id='xidmetlerimiz'>
          <div className='section3_div1'>
           <div className='title_line'></div>
           <p>{admin.section3_top_title}</p>
          </div>
-         <h1>{admin.section3_bottom_title}</h1>
+         <h1 className='section3_h1'>{admin.section3_bottom_title}</h1>
          <p className='section3_p'>{admin.section3_paragraph}</p>
 
  <Carousel className='carousel2'
-         autoPlay
+         
         useKeyboardArrows={true}
         swipeable={true}
         showStatus={false}
@@ -85,6 +74,8 @@ const Home = () => {
         showArrows={false}
         emulateTouch={true}
        centerMode={true}
+       selectedItem={1}
+
        centerSlidePercentage={50}
         
         >
@@ -117,179 +108,7 @@ const Home = () => {
           </div>
          </div>
        </section>
-       <section className='section3' id='emekdaslar'>
-         <div className='section3_div1'>
-          <div className='title_line'></div>
-          <p>{admin.section5_top_title}</p>
-         </div>
-         <h1>{admin.section5_bottom_title}</h1>
-         <p className='section3_p'>{admin.section5_paragraph}</p>
-
- <Carousel className='carousel3'
-         autoPlay
-        useKeyboardArrows={true}
-        swipeable={true}
-        showStatus={false}
-        showThumbs={false}
-        showArrows={false}
-        emulateTouch={true}
-        showIndicators={false}
-       centerMode={true}
-       centerSlidePercentage={50}
-        
-        >
-          {/*section5_carousel_card1*/}
-         <div className='testimonal_card'>
-         <div className='testimonal_card_user'>
-          <img src={admin.section5_carousel_card1_img}/>
-          <div className='testimonal_card_user_texts'>
-            <h3>{admin.section5_carousel_card1_name}</h3>
-            <p>{admin.section5_carousel_card1_profession}</p>
-          </div>
-         </div>
-         <p>{admin.section5_carousel_card1_comment}</p>
-         </div>
-
-         {/*section5_carousel_card2*/}
-         <div className='testimonal_card'>
-         <div className='testimonal_card_user'>
-          <img src={admin.section5_carousel_card2_img}/>
-          <div className='testimonal_card_user_texts'>
-            <h3>{admin.section5_carousel_card2_name}</h3>
-            <p>{admin.section5_carousel_card2_profession}</p>
-          </div>
-         </div>
-         <p>{admin.section5_carousel_card2_comment}</p>
-         </div>
-
-          {/*section5_carousel_card3*/}
-         <div className='testimonal_card'>
-         <div className='testimonal_card_user'>
-          <img src={admin.section5_carousel_card3_img}/>
-          <div className='testimonal_card_user_texts'>
-            <h3>{admin.section5_carousel_card3_name}</h3>
-            <p>{admin.section5_carousel_card3_profession}</p>
-          </div>
-         </div>
-         <p>{admin.section5_carousel_card3_comment}</p>
-         </div>
-            
-{/* 
-          {//section5_carousel_card4
-            }
-          
-         <div className='testimonal_card'>
-         <div className='testimonal_card_user'>
-          <img src={admin.section5_carousel_card4_img}/>
-          <div className='testimonal_card_user_texts'>
-            <h3>{admin.section5_carousel_card4_name}</h3>
-            <p>{admin.section5_carousel_card4_profession}</p>
-          </div>
-         </div>
-         <p>{admin.section5_carousel_card4_comment}</p>
-         </div>
-
-            */}
-
-{/* 
-          {//section5_carousel_card5
-          }
-          
-          <div className='testimonal_card'>
-         <div className='testimonal_card_user'>
-          <img src={admin.section5_carousel_card5_img}/>
-          <div className='testimonal_card_user_texts'>
-            <h3>{admin.section5_carousel_card5_name}</h3>
-            <p>{admin.section5_carousel_card5_profession}</p>
-          </div>
-         </div>
-         <p>{admin.section5_carousel_card5_comment}</p>
-         </div> */}
-
-{/* 
-          {//section5_carousel_card6
-          }
-          
-          <div className='testimonal_card'>
-         <div className='testimonal_card_user'>
-          <img src={admin.section5_carousel_card6_img}/>
-          <div className='testimonal_card_user_texts'>
-            <h3>{admin.section5_carousel_card6_name}</h3>
-            <p>{admin.section5_carousel_card6_profession}</p>
-          </div>
-         </div>
-         <p>{admin.section5_carousel_card6_comment}</p>
-         </div>
-          */}
-
-{/* 
-        {//section5_carousel_card7
-        }
-          
-         <div className='testimonal_card'>
-         <div className='testimonal_card_user'>
-          <img src={admin.section5_carousel_card7_img}/>
-          <div className='testimonal_card_user_texts'>
-            <h3>{admin.section5_carousel_card7_name}</h3>
-            <p>{admin.section5_carousel_card7_profession}</p>
-          </div>
-         </div>
-         <p>{admin.section5_carousel_card7_comment}</p>
-         </div>
- */}
-
-{/* 
-         {//section5_carousel_card8
-         }
-          
-         <div className='testimonal_card'>
-         <div className='testimonal_card_user'>
-          <img src={admin.section5_carousel_card8_img}/>
-          <div className='testimonal_card_user_texts'>
-            <h3>{admin.section5_carousel_card8_name}</h3>
-            <p>{admin.section5_carousel_card8_profession}</p>
-          </div>
-         </div>
-         <p>{admin.section5_carousel_card8_comment}</p>
-         </div>
-          */}
-
-
-{/* 
-                {//section5_carousel_card9
-                }
-          
-                <div className='testimonal_card'>
-         <div className='testimonal_card_user'>
-          <img src={admin.section5_carousel_card9_img}/>
-          <div className='testimonal_card_user_texts'>
-            <h3>{admin.section5_carousel_card9_name}</h3>
-            <p>{admin.section5_carousel_card9_profession}</p>
-          </div>
-         </div>
-         <p>{admin.section5_carousel_card9_comment}</p>
-         </div>
-         */}
-
-{/* 
-            {//section5_carousel_card10
-            }
-          
-            <div className='testimonal_card'>
-         <div className='testimonal_card_user'>
-          <img src={admin.section5_carousel_card10_img}/>
-          <div className='testimonal_card_user_texts'>
-            <h3>{admin.section5_carousel_card10_name}</h3>
-            <p>{admin.section5_carousel_card10_profession}</p>
-          </div>
-         </div>
-         <p>{admin.section5_carousel_card10_comment}</p>
-         </div>
- */}
-
-        </Carousel>
-        
-       </section> 
+   
        <section className='section4' id='xeberler'>
        <div className='section3_div1'>
           <div className='title_line'></div>
@@ -335,7 +154,7 @@ const Home = () => {
            </div>
           </div>
 
-{/*           
+           
           {
             //news4
           }
@@ -345,9 +164,9 @@ const Home = () => {
             
             <p>{admin.section6_news_card4_paragraph}</p>
            </div>
-          </div> */}
+          </div> 
 
-{/* 
+
          {
             //news5
           } 
@@ -357,9 +176,9 @@ const Home = () => {
             
             <p>{admin.section6_news_card5_paragraph}</p>
            </div>
-          </div> */}
+          </div> 
 
-{/*             
+            
             {
             //news6
           }
@@ -370,7 +189,7 @@ const Home = () => {
             
             <p>{admin.section6_news_card6_paragraph}</p>
            </div>
-          </div> */}
+          </div> 
 
           
 {/*      
@@ -439,16 +258,18 @@ const Home = () => {
          <p className='section3_p'>{admin.section7_paragraph}</p>
 
  <Carousel className='carousel3'
-         autoPlay
+        
         useKeyboardArrows={true}
         swipeable={true}
         showStatus={false}
         showThumbs={false}
         showArrows={false}
         emulateTouch={true}
+        swipeScrollTolerance={50}
         showIndicators={false}
        centerMode={true}
        centerSlidePercentage={30}
+       selectedItem={0}
         
         >
           {//member1

@@ -31,11 +31,7 @@ const Navbar = () => {
                 Layihələrimiz
               </Link>
             </li>
-            <li>
-              <Link activeClass="active" smooth spy to="emekdaslar">
-               Əməkdaşlar
-              </Link>
-            </li>
+            
      <li>
               <Link activeClass="active" smooth spy to="xeberler">
                 Xəbərlər

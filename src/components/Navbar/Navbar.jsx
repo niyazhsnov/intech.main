@@ -18,7 +18,7 @@ const Navbar = () => {
   <ul class="menu">
   <li>
               <Link activeClass="active" smooth spy to="komandamiz">
-                Haqqımızda
+                Komandamız
               </Link>
             </li>
             <li>
@@ -34,7 +34,7 @@ const Navbar = () => {
             
      <li>
               <Link activeClass="active" smooth spy to="xeberler">
-                Xəbərlər
+                Haqqımızda
               </Link>
             </li>
             <li>

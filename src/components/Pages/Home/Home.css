@@ -411,10 +411,16 @@ box-sizing: border-box;
    margin-left:-4.5vw
   }
   .section1_div ul li a img{
-    width:5vw;
+    width:4vw;
+  }
+  .section1_div ul li{
+    margin-bottom:2vw;
   }
   .section1_div ul{
-     display:none;
+    left:0vw;
+     top:14%;
+   
+     position:absolute;
   }
   #elaqe{
     margin-left:6vw;

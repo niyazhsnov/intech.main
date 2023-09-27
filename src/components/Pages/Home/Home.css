@@ -178,7 +178,6 @@
   .section3_p{
     margin-left:3vw;
     margin-bottom:1vw;
-      margin-right:3vw;
     font-size:1.1vw;
   }
 
@@ -403,10 +402,10 @@ box-sizing: border-box;
   display:block;
 }
 @media only screen and (max-width:768px){
- 
+
   .section1{
   height:170vw;
-  z-index: -20;
+
   }
   .section1_div{
    margin-left:-4.5vw
@@ -414,13 +413,15 @@ box-sizing: border-box;
   .section1_div ul li a img{
     width:4vw;
   }
+
   .section1_div ul li{
     margin-bottom:2vw;
+    z-index:99999;
   }
   .section1_div ul{
     left:0vw;
      top:14%;
-   
+     z-index:99999;
      position:absolute;
   }
   #elaqe{
@@ -440,10 +441,12 @@ box-sizing: border-box;
    .section1_button{
     margin-left:-6vw;
     scale:1.4;
+    z-index:-1;
    }
  .section2{
     margin-top:-50vw;
-    z-index: 9999;
+    z-index: 0.1;
+    position:relative;
     background-color: #01091200;
  }
    .carousel_card{

@@ -1,7 +1,7 @@
 import React from 'react'
 const admin ={
   /*helmet*/
-  helmet_title:'Intech (Industrial Technologies)',
+  helmet_title:'InTech (Industrial Technologies)',
   helmet_img:'https://img001.prntscr.com/file/img001/NRbdcV-lQ_im8InSvqvUYg.png',
        
  /*section1*/

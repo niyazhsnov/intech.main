@@ -67,14 +67,14 @@ const admin ={
       section6_news_card1_img:'https://img001.prntscr.com/file/img001/kNw0aZjHRfyfUmDSva5YKA.jpg',
       section6_news_card1_paragraph:'',
       //card2
-      section6_news_card2_img:'https://img001.prntscr.com/file/img001/3xilckzwSeyzbWz86iEssA.jpg',
-      section6_news_card2_paragraph:'Azərbaycan Texniki Universitetinin (AzTU) "InTech" komandası festivalın Hackathon kateqotiyasında iştirak edərək 25 komanda arasında 3-cü yerə layiq görülüb.',
+      section6_news_card2_img:'https://img001.prntscr.com/file/img001/LvzKxyTUTEqga-AMQ9SyQQ.jpg',
+      section6_news_card2_paragraph:'',
       //card3
-      section6_news_card3_img:'https://img001.prntscr.com/file/img001/3xilckzwSeyzbWz86iEssA.jpg',
-      section6_news_card3_paragraph:'Azərbaycan Texniki Universitetinin (AzTU) "InTech" komandası festivalın Hackathon kateqotiyasında iştirak edərək 25 komanda arasında 3-cü yerə layiq görülüb.',
+      section6_news_card3_img:'https://img001.prntscr.com/file/img001/fuWtDyVLTo2xe1ynEPtvTw.jpg',
+      section6_news_card3_paragraph:'',
       //card4
-      section6_news_card4_img:'https://img001.prntscr.com/file/img001/3xilckzwSeyzbWz86iEssA.jpg',
-      section6_news_card4_paragraph:'Azərbaycan Texniki Universitetinin (AzTU) "InTech" komandası festivalın Hackathon kateqotiAzərbaycan Texniki Universitetinin (AzTU) "InTech" komandası festivalın Hackathon kateqoti',
+      section6_news_card4_img:'https://img001.prntscr.com/file/img001/DmC7HV4cTbKynT7B7UcG8g.jpg',
+      section6_news_card4_paragraph:'',
       //card5
       section6_news_card5_img:'https://img001.prntscr.com/file/img001/3xilckzwSeyzbWz86iEssA.jpg',
       section6_news_card5_paragraph:'Azərbaycan Texniki Universitetinin (AzTU)Azərbaycan Texniki Universitetinin (AzTU)Azərbaycan Texniki Universitetinin (AzTU)Azərbaycan Texniki Universitetinin (AzTU)',

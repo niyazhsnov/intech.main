@@ -9,12 +9,7 @@ const Home = () => {
   return (
     
     <div className='body'>
-           <Helmet>
-                <meta charSet="utf-8" />
-                <title>{admin.helmet_title}</title>
-                <link rel="icon" type='image/png' href={admin.helmet_img} />
-            </Helmet>
-
+         
        <section className='section1'  >
        
              

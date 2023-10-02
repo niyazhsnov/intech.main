@@ -163,8 +163,8 @@ const Home = () => {
           </div> 
 
             
-            {
-   {/*            //news6
+            
+   {/*         {   //news6
           }
 
           <div className='news_card' >

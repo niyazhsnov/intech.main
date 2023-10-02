@@ -421,7 +421,7 @@ box-sizing: border-box;
   .section1_div ul{
     left:0vw;
      top:14%;
-     z-index:99999;
+     
      position:absolute;
   }
   #elaqe{

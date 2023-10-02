@@ -15,7 +15,7 @@ const Home = () => {
                 <link rel="icon" type='image/png' href={admin.helmet_img} />
             </Helmet>
 
-       <section className='section1' >
+       <section className='section1'  >
        
              
           <div className='section1_div'>
@@ -79,9 +79,9 @@ const Home = () => {
        centerSlidePercentage={50}
         
         >
-         <div><img src={admin.section3_carousel_card1_img}/></div>
-         <div><img src={admin.section3_carousel_card2_img}/></div>
-         <div><img src={admin.section3_carousel_card3_img}/></div>
+         <div className='xidmet_karusel_img'><img src={admin.section3_carousel_card1_img}/></div>
+         <div className='xidmet_karusel_img'><img src={admin.section3_carousel_card2_img}/></div>
+         <div className='xidmet_karusel_img'><img src={admin.section3_carousel_card3_img}/></div>
         </Carousel>
        </section>
        <section className='section4' id='layihelendirme'>
@@ -125,7 +125,10 @@ const Home = () => {
           }
           <div className='news_card' >
           <img src={admin.section6_news_card1_img}/>
-          
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card1_paragraph}</p>
+           </div>
            
           </div>
 
@@ -134,7 +137,10 @@ const Home = () => {
           }
           <div className='news_card' >
           <img src={admin.section6_news_card2_img}/>
-           
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card2_paragraph}</p>
+           </div>
           </div>
 
           {
@@ -142,7 +148,10 @@ const Home = () => {
           }
           <div className='news_card' >
           <img src={admin.section6_news_card3_img}/>
-          
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card3_paragraph}</p>
+           </div>
           </div>
 
            
@@ -151,7 +160,10 @@ const Home = () => {
           }
           <div className='news_card' >
           <img src={admin.section6_news_card4_img}/>
-         
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card4_paragraph}</p>
+           </div>
           </div> 
 
 
@@ -160,10 +172,13 @@ const Home = () => {
           } 
           <div className='news_card' >
           <img src={admin.section6_news_card5_img}/>
-          
+           <div className='news_paragraph'>
+            
+            <p>{admin.section6_news_card5_paragraph}</p>
+           </div>
           </div> 
 
-     {/*    
+            
             {
             //news6
           }
@@ -177,7 +192,7 @@ const Home = () => {
           </div> 
 
           
-      
+{/*      
          {
             //news7
           }
@@ -300,7 +315,7 @@ const Home = () => {
          </div>
           
 
-        {//member4
+             {//member4
         }
         <div className='command_card'>
         <div className='testimonal_card_user'>
@@ -314,7 +329,7 @@ const Home = () => {
         <p id='command_comment'>{admin.section7_member4_about}</p>
         </div>
 
-   {/*  {//member5
+           {//member5
         }
         <div className='command_card'>
         <div className='testimonal_card_user'>
@@ -397,7 +412,7 @@ const Home = () => {
         </div>
         <p id='command_comment'>{admin.section7_member10_about}</p>
         </div>
-*/}
+
         </Carousel>
         <Carousel className='carousel3 mobile'
         
@@ -457,7 +472,7 @@ const Home = () => {
          <p id='command_comment'>{admin.section7_member3_about}</p>
          </div>
           
-          
+
              {//member4
         }
         <div className='command_card'>
@@ -472,7 +487,7 @@ const Home = () => {
         <p id='command_comment'>{admin.section7_member4_about}</p>
         </div>
 
-          {/*  {//member5
+           {//member5
         }
         <div className='command_card'>
         <div className='testimonal_card_user'>
@@ -555,7 +570,6 @@ const Home = () => {
         </div>
         <p id='command_comment'>{admin.section7_member10_about}</p>
         </div>
-          */}
 
         </Carousel>
        </section> 

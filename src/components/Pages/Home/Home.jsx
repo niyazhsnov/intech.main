@@ -164,7 +164,7 @@ const Home = () => {
 
             
             {
-            //news6
+   {/*            //news6
           }
 
           <div className='news_card' >
@@ -173,7 +173,7 @@ const Home = () => {
           </div> 
 
           
-{/*      
+   
          {
             //news7
           }

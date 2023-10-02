@@ -488,9 +488,14 @@ box-sizing: border-box;
     width:90%;
     height:50vw;
    
-    
-   
+ 
    }
+   .news_button{
+    width:20vw;
+    padding:2vw;
+    font-size:3vw;
+  }
+   
    .carousel3{
     margin-left:3vw;
    

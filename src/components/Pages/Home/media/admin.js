@@ -76,7 +76,7 @@ const admin ={
       section6_news_card4_img:'https://img001.prntscr.com/file/img001/DmC7HV4cTbKynT7B7UcG8g.jpg',
       section6_news_card4_paragraph:'',
       //card5
-      section6_news_card5_img:'https://img001.prntscr.com/file/img001/3xilckzwSeyzbWz86iEssA.jpg',
+      section6_news_card5_img:'https://img001.prntscr.com/file/img001/X5AypgXRQr6V0lbLuL103w.jpg',
       section6_news_card5_paragraph:'Azərbaycan Texniki Universitetinin (AzTU)Azərbaycan Texniki Universitetinin (AzTU)Azərbaycan Texniki Universitetinin (AzTU)Azərbaycan Texniki Universitetinin (AzTU)',
       //card6
       section6_news_card6_img:'https://img001.prntscr.com/file/img001/3xilckzwSeyzbWz86iEssA.jpg',

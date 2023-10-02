@@ -99,11 +99,11 @@ const admin ={
 /*section7*/
     section7_top_title:'Komandamız',
     section7_bottom_title:'Komanda üzvləri',
-    section7_paragraph:'There are many variations of passages of Lorem Ipsum available,but the majority have suffered alteration in some form,',
+    section7_paragraph:'Komandamız gün keçdikcə böyüyür və bununla birgə daha böyük layihələrə imza atır',
     //section7_command_members
     //card1
     section7_member1_img:'https://img001.prntscr.com/file/img001/IB6wm90sR0iVm-g5uwd04w.jpg',
-    section7_member1_name:'.',
+    section7_member1_name:'Mənsur',
     section7_member1_profession:'FrontEnd Developer',
     section7_member1_about:'',
     //card2

@@ -125,10 +125,7 @@ const Home = () => {
           }
           <div className='news_card' >
           <img src={admin.section6_news_card1_img}/>
-           <div className='news_paragraph'>
-            
-            <p>{admin.section6_news_card1_paragraph}</p>
-           </div>
+       
            
           </div>
 
@@ -137,21 +134,14 @@ const Home = () => {
           }
           <div className='news_card' >
           <img src={admin.section6_news_card2_img}/>
-           <div className='news_paragraph'>
-            
-            <p>{admin.section6_news_card2_paragraph}</p>
-           </div>
-          </div>
+         
 
           {
             //news3
           }
           <div className='news_card' >
           <img src={admin.section6_news_card3_img}/>
-           <div className='news_paragraph'>
-            
-            <p>{admin.section6_news_card3_paragraph}</p>
-           </div>
+          
           </div>
 
            
@@ -160,10 +150,7 @@ const Home = () => {
           }
           <div className='news_card' >
           <img src={admin.section6_news_card4_img}/>
-           <div className='news_paragraph'>
-            
-            <p>{admin.section6_news_card4_paragraph}</p>
-           </div>
+        
           </div> 
 
 
@@ -172,10 +159,7 @@ const Home = () => {
           } 
           <div className='news_card' >
           <img src={admin.section6_news_card5_img}/>
-           <div className='news_paragraph'>
-            
-            <p>{admin.section6_news_card5_paragraph}</p>
-           </div>
+       
           </div> 
 
             
@@ -185,10 +169,7 @@ const Home = () => {
 
           <div className='news_card' >
           <img src={admin.section6_news_card6_img}/>
-           <div className='news_paragraph'>
-            
-            <p>{admin.section6_news_card6_paragraph}</p>
-           </div>
+         
           </div> 
 
           

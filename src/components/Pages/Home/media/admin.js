@@ -102,20 +102,20 @@ const admin ={
     section7_paragraph:'There are many variations of passages of Lorem Ipsum available,but the majority have suffered alteration in some form,',
     //section7_command_members
     //card1
-    section7_member1_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
-    section7_member1_name:'Murad',
-    section7_member1_profession:'Designer',
-    section7_member1_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
+    section7_member1_img:'https://img001.prntscr.com/file/img001/IB6wm90sR0iVm-g5uwd04w.jpg',
+    section7_member1_name:'.',
+    section7_member1_profession:'FrontEnd Developer',
+    section7_member1_about:'',
     //card2
-    section7_member2_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
-    section7_member2_name:'Murad',
+    section7_member2_img:'https://img001.prntscr.com/file/img001/RGO4HaM4QTqvHQ-a6qLMAw.jpg',
+    section7_member2_name:'Murad İbrahimli',
     section7_member2_profession:'Designer',
-    section7_member2_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
+    section7_member2_about:'',
     //card3
-    section7_member3_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
-    section7_member3_name:'Murad',
-    section7_member3_profession:'Designer',
-    section7_member3_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
+    section7_member3_img:'https://img001.prntscr.com/file/img001/Ve9WPrfyTbyQHWZaXZ9Cnw.png',
+    section7_member3_name:'Niyaz Həsənov',
+    section7_member3_profession:'FrontEnd Developer',
+    section7_member3_about:'',
     //card4
     section7_member4_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
     section7_member4_name:'Murad',

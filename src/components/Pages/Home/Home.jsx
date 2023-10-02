@@ -125,10 +125,7 @@ const Home = () => {
           }
           <div className='news_card' >
           <img src={admin.section6_news_card1_img}/>
-           <div className='news_paragraph'>
-            
-            <p>{admin.section6_news_card1_paragraph}</p>
-           </div>
+          
            
           </div>
 

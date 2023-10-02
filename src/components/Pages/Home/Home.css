@@ -421,7 +421,7 @@ box-sizing: border-box;
   .section1_div ul{
     left:0vw;
      top:14%;
-     
+   
      position:absolute;
   }
   #elaqe{
@@ -517,4 +517,13 @@ box-sizing: border-box;
    .mobile{
     display: block;
    }
+}
+
+@media only screen and (max-width:450px){
+  .section1_div ul{
+    left:-6vw;
+    top:7%;
+  
+    position:absolute;
+  }
 }

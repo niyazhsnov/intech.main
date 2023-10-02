@@ -153,7 +153,7 @@ const Home = () => {
           <img src={admin.section6_news_card4_img}/>
          
           </div> 
-{/*
+
 
          {
             //news5
@@ -166,7 +166,7 @@ const Home = () => {
            </div>
           </div> 
 
-            
+     {/*    
             {
             //news6
           }

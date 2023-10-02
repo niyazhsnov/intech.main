@@ -310,7 +310,7 @@ const Home = () => {
         <p id='command_comment'>{admin.section7_member4_about}</p>
         </div>
 
-           {//member5
+   {/*   {//member5
         }
         <div className='command_card'>
         <div className='testimonal_card_user'>
@@ -393,7 +393,7 @@ const Home = () => {
         </div>
         <p id='command_comment'>{admin.section7_member10_about}</p>
         </div>
-
+   */}
         </Carousel>
         <Carousel className='carousel3 mobile'
         
@@ -468,7 +468,7 @@ const Home = () => {
         <p id='command_comment'>{admin.section7_member4_about}</p>
         </div>
 
-           {//member5
+          {/*   {//member5
         }
         <div className='command_card'>
         <div className='testimonal_card_user'>
@@ -551,7 +551,7 @@ const Home = () => {
         </div>
         <p id='command_comment'>{admin.section7_member10_about}</p>
         </div>
-
+*/}
         </Carousel>
        </section> 
        <div id='end'></div>

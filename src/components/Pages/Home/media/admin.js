@@ -10,7 +10,7 @@ const admin ={
     section1_paragraph:'Müasir dünyada texnologiya olmadan uğur qazanmaq çətindir. Biznesinizi inkişaf etdirmək üçün sizə lazım olan texnoloji imkanları təqdim edirik',
     section1_face_link:'https://m.facebook.com/profile.php?id=100092457157651&eav=AfZHuiwuOa2dyPUt5pCpKf9c1IFL67x-o3rtL8thPvqkfIN6iRJ16DRV80b32NRklpA&paipv=0',
     section1_insta_link:'https://www.instagram.com/intech.main/',
-    section1_linkedin_link:'',
+    section1_linkedin_link:'https://www.linkedin.com/company/intech-main/',
     section1_contact_button_link:'https://api.whatsapp.com/send?phone=%2B994998404434&data=ARDXrvi4ktHKtKWk4htVcJht9Oe0zsUKR8hI8KaFXUsJKHUXoMd8Fpmy9nsrS6GyqDfUQiwtWwIXPbI8lMhoVPKq1MbQaBLkSYEzOBeyzMXCNkirhFeenQKAsrOFwnI0mLVaEZYjqLA-i4NG--uddYPkrw&source=FB_Page&app=facebook&entry_point=page_cta',
     
     

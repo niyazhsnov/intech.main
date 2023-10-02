@@ -103,7 +103,7 @@ const admin ={
     //section7_command_members
     //card1
     section7_member1_img:'https://img001.prntscr.com/file/img001/IB6wm90sR0iVm-g5uwd04w.jpg',
-    section7_member1_name:'Mənsur',
+    section7_member1_name:'Mənsur Nəbiyev',
     section7_member1_profession:'Robotics Engineer',
     section7_member1_about:'',
     //card2

@@ -305,7 +305,7 @@ const Home = () => {
         <p id='command_comment'>{admin.section7_member4_about}</p>
         </div>
 
-   {/*   {//member5
+    {//member5
         }
         <div className='command_card'>
         <div className='testimonal_card_user'>
@@ -319,7 +319,7 @@ const Home = () => {
         <p id='command_comment'>{admin.section7_member5_about}</p>
         </div>
 
-           {//member6
+           {/*  {//member6
         }
         <div className='command_card'>
         <div className='testimonal_card_user'>
@@ -463,7 +463,7 @@ const Home = () => {
         <p id='command_comment'>{admin.section7_member4_about}</p>
         </div>
 
-          {/*   {//member5
+             {//member5
         }
         <div className='command_card'>
         <div className='testimonal_card_user'>
@@ -477,7 +477,7 @@ const Home = () => {
         <p id='command_comment'>{admin.section7_member5_about}</p>
         </div>
 
-           {//member6
+          {/*  {//member6
         }
         <div className='command_card'>
         <div className='testimonal_card_user'>

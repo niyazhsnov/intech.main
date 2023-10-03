@@ -44,7 +44,7 @@ const admin ={
     section4_bottom_title:'Layihələndirmə',
     section4_paragraph:'Layihənin dizaynı zamanı sizinlə yaxından əlaqə saxlamaqla istəklərinizi də tam başa düşürük. Dəyərli fikirlərinizi dinləməklə, arzularınızı gerçəkləşdirmək üçün əlimizdən gələni edirik. Əməkdaşlığımız müddətində layihənin hər mərhələsində sizinlə aktiv şəkildə əlaqə saxlayır və rəyinizi nəzərə alırıq.',
       //section4_gallery
-      section4_gallery_img1:'https://img001.prntscr.com/file/img001/_vqeEcBeRfOZOhr7t-liZQ.jpg',
+      section4_gallery_img1:'https://img001.prntscr.com/file/img001/HmvfYqKaQlieygT6f0gtHQ.jpg',
       section4_gallery_img2:'https://img001.prntscr.com/file/img001/SLcgoBTJT-anYz6DsYNJdA.jpg',
       section4_gallery_img3:'https://img001.prntscr.com/file/img001/aF7zoN3nQHCNwgueYZqjsg.jpg',
       section4_gallery_img4:'https://img001.prntscr.com/file/img001/7UXzwxQQQnGgXVs8Z4JHtA.jpeg',

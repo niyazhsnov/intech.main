@@ -122,10 +122,10 @@ const admin ={
     section7_member4_profession:'Robotics Engineer',
     section7_member4_about:'',
     //card5
-    section7_member5_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
-    section7_member5_name:'Murad',
-    section7_member5_profession:'Designer',
-    section7_member5_about:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using...',
+    section7_member5_img:'https://img001.prntscr.com/file/img001/10ja7dxlTVWpj15eNZ3rmQ.jpeg',
+    section7_member5_name:'Ömər Ələsgərov',
+    section7_member5_profession:'Co-Founder',
+    section7_member5_about:'',
     //card6
     section7_member6_img:'https://avatars.githubusercontent.com/u/79119900?v=4',
     section7_member6_name:'Murad',

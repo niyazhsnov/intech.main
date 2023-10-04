@@ -34,9 +34,9 @@ const admin ={
     section3_bottom_title:'Xidmətlərimiz',
     section3_paragraph:'Veb saytların qurulması, mobil aplikasiyaların qurulması, 3D çap xidməti, 3D modelləşdirmə xidməti,Logo dizaynı,Layihələrin prototipləşdirilməsi və elektronik sxemlərin qurulması',
        ///section3_carousel
-       section3_carousel_card1_img:'https://img001.prntscr.com/file/img001/2X1t2sVqTbCKx4n7yikmtA.jpg',
-       section3_carousel_card2_img:'https://img001.prntscr.com/file/img001/5NzWpeirSWKFnJ6LQ5HjuQ.jpg',
-       section3_carousel_card3_img:'https://img001.prntscr.com/file/img001/iaL0ePMUSa-F-LtFVtyRiA.jpg',
+       section3_carousel_card1_img:'https://img001.prntscr.com/file/img001/lr_rVUwxTpmPxKpmyK-lHw.png',
+       section3_carousel_card2_img:'https://img001.prntscr.com/file/img001/Y2r12rlgQWCAXK2jWfl_wA.png',
+       section3_carousel_card3_img:'https://img001.prntscr.com/file/img001/pg-Ax-TtT3iJENZZzPEKSA.png',
     
     
 /*section4*/

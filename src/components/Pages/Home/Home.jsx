@@ -15,9 +15,9 @@ const Home = () => {
              
           <div className='section1_div'>
           <ul>
-            <li><a href={admin.section1_face_link}><img src='https://img001.prntscr.com/file/img001/bu3LOMwUSEWVcCIOuIV6Cw.png'/></a></li>
-            <li><a href={admin.section1_insta_link}><img src='https://img001.prntscr.com/file/img001/gN1EEhGdSMe4tG-Z_AWLRg.png'/></a></li>
-            <li><a href={admin.section1_linkedin_link}><img src='https://img001.prntscr.com/file/img001/4v00tewoSMaJCul6kx1E1g.png'/></a></li>
+            <li><a href={admin.section1_face_link}><img src='https://img001.prntscr.com/file/img001/bu3LOMwUSEWVcCIOuIV6Cw.png' alt='facebook'/></a></li>
+            <li><a href={admin.section1_insta_link}><img src='https://img001.prntscr.com/file/img001/gN1EEhGdSMe4tG-Z_AWLRg.png' alt='instagram'/></a></li>
+            <li><a href={admin.section1_linkedin_link}><img src='https://img001.prntscr.com/file/img001/4v00tewoSMaJCul6kx1E1g.png' alt='linkedin'/></a></li>
           </ul>
           <div className='section1_div_text'>
             <h1>{admin.section1_title}</h1>
@@ -31,21 +31,21 @@ const Home = () => {
        
          <div className='carousel_card' >
          <ul>
-          <li className='carousel_card_icon'><img src={admin.carousel_card1_img}></img></li>
+          <li className='carousel_card_icon'><img src={admin.carousel_card1_img} alt='layihelendirme'></img></li>
           <li className='carousel_card_title' >{admin.carousel_card1_title}</li>
           <li className='carousel_card_p'>{admin.carousel_card1_paragraph}</li>
          </ul>
          </div>
          <div className='carousel_card'>
          <ul>
-          <li className='carousel_card_icon'><img src={admin.carousel_card2_img}></img></li>
+          <li className='carousel_card_icon'><img src={admin.carousel_card2_img} alt='xidmet'></img></li>
           <li className='carousel_card_title'>{admin.carousel_card2_title}</li>
           <li className='carousel_card_p'>{admin.carousel_card2_paragraph}</li>
          </ul>
          </div>
          <div className='carousel_card'>
          <ul>
-          <li className='carousel_card_icon'><img src={admin.carousel_card3_img}></img></li>
+          <li className='carousel_card_icon'><img src={admin.carousel_card3_img} alt='kurs'></img></li>
           <li className='carousel_card_title'>{admin.carousel_card3_title}</li>
           <li className='carousel_card_p'>{admin.carousel_card3_paragraph}</li>
          </ul>
@@ -74,9 +74,9 @@ const Home = () => {
        centerSlidePercentage={50}
         
         >
-         <div className='xidmet_karusel_img'><img src={admin.section3_carousel_card1_img}/></div>
-         <div className='xidmet_karusel_img'><img src={admin.section3_carousel_card2_img}/></div>
-         <div className='xidmet_karusel_img'><img src={admin.section3_carousel_card3_img}/></div>
+         <div className='xidmet_karusel_img'><img src={admin.section3_carousel_card1_img} alt='web development'/></div>
+         <div className='xidmet_karusel_img'><img src={admin.section3_carousel_card2_img} alt='3d printing'/></div>
+         <div className='xidmet_karusel_img'><img src={admin.section3_carousel_card3_img} alt='prototyping'/></div>
         </Carousel>
        </section>
        <section className='section4' id='layihelendirme'>
@@ -90,16 +90,16 @@ const Home = () => {
         
         <div className='elipse1'><div className='elipse2'><div className='elipse3'><div className='elipse4'><div className='elipse5'><div className='elipse6'></div></div></div></div></div></div>
          <div className='image_container'>
-          <img src={admin.section4_gallery_img1}/>
-          <img src={admin.section4_gallery_img2}/>
-          <img src={admin.section4_gallery_img3}/>
-          <img src={admin.section4_gallery_img4}/>
-          <img src={admin.section4_gallery_img5}/> 
-          <img src={admin.section4_gallery_img6}/>
-          <img src={admin.section4_gallery_img7}/>
-          <img src={admin.section4_gallery_img8}/>
-          <img src={admin.section4_gallery_img9}/>
-          <img src={admin.section4_gallery_img10}/>
+          <img src={admin.section4_gallery_img1} alt='melumat portali'/>
+          <img src={admin.section4_gallery_img2} alt='intech'/>
+          <img src={admin.section4_gallery_img3} alt='3d printer'/>
+          <img src={admin.section4_gallery_img4} alt='azerbaijan flag 3d printer'/>
+          <img src={admin.section4_gallery_img5} alt='stage lazer show'/> 
+          <img src={admin.section4_gallery_img6} alt='drone hacaton sualtı qayıq'/>
+          <img src={admin.section4_gallery_img7} alt=''/>
+          <img src={admin.section4_gallery_img8} alt=''/>
+          <img src={admin.section4_gallery_img9} alt=''/>
+          <img src={admin.section4_gallery_img10} alt=''/>
           </div>
          </div>
        </section>
@@ -119,7 +119,7 @@ const Home = () => {
             //news1
           }
           <div className='news_card' >
-          <img src={admin.section6_news_card1_img}/>
+          <img src={admin.section6_news_card1_img} alt='Mustafa Varank Rəşad Nəbiyev Aztu İntech'/>
        
            
           </div>
@@ -128,14 +128,14 @@ const Home = () => {
             //news2
           }
           <div className='news_card' >
-          <img src={admin.section6_news_card2_img}/>
+          <img src={admin.section6_news_card2_img} alt='Intech təcrübə proqramı sertifikatlar'/>
          
          </div>
           {
             //news3
           }
           <div className='news_card' >
-          <img src={admin.section6_news_card3_img}/>
+          <img src={admin.section6_news_card3_img} alt='3d printerimiz ictimai tv'/>
           
           </div>
 
@@ -144,7 +144,7 @@ const Home = () => {
             //news4
           }
           <div className='news_card' >
-          <img src={admin.section6_news_card4_img}/>
+          <img src={admin.section6_news_card4_img} alt='Texniki universitetdən Intech ə dəstək'/>
         
           </div> 
 
@@ -153,7 +153,7 @@ const Home = () => {
             //news5
           } 
           <div className='news_card' >
-          <img src={admin.section6_news_card5_img}/>
+          <img src={admin.section6_news_card5_img} alt='Rəşad Nəbiyev Mustafa Varank Intech'/>
        
           </div> 
 
